@@ -47,7 +47,7 @@ The table below displays the enabled and disabled styles in our packages. For mo
 
 To use this package:
 
-* Place the files from the `usage` directory in the root of your repository 
+* Place the files from the `usage` directory in the root of your repository
 * Replace `<package>` placeholder in `.vale.ini` file with the correct name: `website` or `github`. Refer to the [working-example.vale.ini](./usage/working-example.vale.ini) file to make sure you updated it correctly.
 * Execute the respective commands as commented in the `usage/.vale.ini` file.
 
@@ -67,7 +67,7 @@ Prerequisites:
 
 To update these packages, start by updating files in the respective directories. Once you are satisfied with the package content:
 
-* Create a Pull Request with your changes and assign the respective label to it, so it can be released. Refer to the [Releases](#releases) section for more details. 
+* Create a Pull Request with your changes and assign the respective label to it, so it can be released. Refer to the [Releases](#releases) section for more details.
 * Merge a Pull Request and wait for the new release to be created.
 * Create and upload `zip` archives using the following command:
 
@@ -98,7 +98,7 @@ Before committing to this repository, familiarize yourself with the [auto Config
 
 ### Markdown Lint
 
-The markdown lint in this repositry is managed using the [Markdown Lint Pipeline](./.tekton/markdown-lint.yaml). This pipeline automatically lints `md` files using [markdownlint CLI](https://github.com/DavidAnson/markdownlint).  
+The markdown lint in this repositry is managed using the [Markdown Lint Pipeline](./.tekton/markdown-lint.yaml). This pipeline automatically lints `md` files using [markdownlint CLI](https://github.com/DavidAnson/markdownlint).
 
 Before committing to this repository, familiarize yourself with the [markdownlint Configuration File](./.markdownlint-cli2.yaml).
 
