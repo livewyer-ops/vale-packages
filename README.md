@@ -14,7 +14,7 @@
 
 We have adopted Vale to improve the quality and consistency of our written content across the company. This repository contains custom Vale packages designed to enforce style guidelines and maintain clear, consistent writing. In this repository you will find all the necessary resources to use them in your workflow.
 
-You can find more information about Vale at [vale.sh](https://vale.sh/docs)
+You can find more information about Vale at [vale.sh](https://vale.sh/docs).
 
 ### Packages
 
@@ -48,10 +48,8 @@ The table below displays the enabled and disabled styles in our packages. For mo
 To use this package:
 
 * Place the files from the `usage` directory in the root of your repository 
-* Replace `<package>` placeholder in `.vale.ini` file with the correct name: `website` or `github`. Refer to the working example to make sure you updated it correctly.
+* Replace `<package>` placeholder in `.vale.ini` file with the correct name: `website` or `github`. Refer to the [working-example.vale.ini](./usage/working-example.vale.ini) file to make sure you updated it correctly.
 * Execute the respective commands as commented in the `usage/.vale.ini` file.
-
-
 
 ## Contributing
 
